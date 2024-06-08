@@ -1,0 +1,215 @@
+.post {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .post:hover {
+    transform: translateY(-5px);
+  }
+  
+  .postund {
+    display: flex;
+    align-items: center;
+  }
+  
+  .like-icon {
+    color: blue;
+  }
+  
+  .comment-section {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .comment-icon {
+    color: blue; 
+  }
+
+  .delete-icon {
+    cursor: pointer;
+    color: red;
+    margin-left: 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .delete-icon:hover {
+    color: darkred;
+  }
+  
+
+  .post .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .alert-success {
+    color: green;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  
+  .post .header .avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post .header .name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .post .titre {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .post .body {
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  .post .media-container {
+    max-width: 50%; 
+    margin-bottom: 10px; 
+}
+  
+  .post .post-media {
+    max-width: 50%; /* Make sure the media content doesn't exceed its container */
+    border-radius: 10px; /* Optional: Add some border-radius to the media content */
+      
+}
+  
+
+  .post .reactions {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .post .reactions .like-icon {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .post .reactions .likes-count {
+    margin-left: 5px;
+    color: #333;
+  }
+  
+  .post .comments {
+    margin-bottom: 15px;
+  }
+  
+  .post .comments textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .post .comments button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .post .comments button:hover {
+    background-color: #0056b3;
+  }
+  
+  .post .report button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .post .report button:hover {
+    background-color: #c82333;
+  }
+  
+  .post-comments .comment {
+    margin-bottom: 10px;
+  }
+  
+  .post-comments .comment .comment-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .post-comments .comment .comment-header .avatar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-comments .comment .comment-header .name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .post-comments .comment .comment-text {
+    color: #000000;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+  .post .body .read-more {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .post .body .read-more:hover {
+    background-color: #0056b3;
+  }
+
+  /* Custom styles for the link */
+.b {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745; /* Green color */
+  color: #ffffff; /* White color for text */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Adjust font size */
+  font-weight: bold; /* Bold text */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.b:hover {
+  background-color: #7ff799; 
+  color: #000000;
+}
+
+    

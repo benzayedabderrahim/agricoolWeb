@@ -1,0 +1,95 @@
+.terrain-list-container {
+    padding: 20px;
+   
+  }
+  
+  .terrain-list-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .terrain-table-container {
+    overflow-x: auto;
+  
+  }
+  
+  .terrain-table {
+    background-color: #3dbd77;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .terrain-table th,
+  .terrain-table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .terrain-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .terrain-table img {
+    width: 90px;
+    height: auto;
+    border: black;
+    border-radius: 0%;
+  }
+  
+  .actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .actions button:hover {
+    color: #007bff;
+  }
+  
+  .edit-terrain {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  .edit-terrain h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .form-buttons button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .form-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  

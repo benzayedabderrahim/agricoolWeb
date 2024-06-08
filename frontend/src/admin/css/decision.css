@@ -1,0 +1,39 @@
+/* decision.css */
+
+/* Container styles */
+.decision-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  .decision-title {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  /* Section styles */
+  .decision-section {
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  .decision-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .decision-button {
+    margin-right: 10px;
+  }
+  
+  .decision-button:last-child {
+    margin-right: 0;
+  }
+  

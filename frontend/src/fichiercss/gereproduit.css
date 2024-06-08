@@ -1,0 +1,118 @@
+.product-list-container {
+    margin-top: 20px;
+  }
+  
+  .product-list-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: whitesmoke;
+  }
+  
+  .product-table th,
+  .product-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .product-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .product-table img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 20%;
+  }
+  
+  .product-table td.actions button {
+    margin-right: 5px;
+    color: red;
+  }
+  .edit-product {
+    width: 400px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 35%;
+  }
+  
+  .edit-product h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .edit-product form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-product form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .edit-product form input[type="text"],
+  .edit-product form input[type="number"],
+  .edit-product form textarea,
+  .edit-product form input[type="file"] {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .edit-product form button[type="submit"],
+  .edit-product form button[type="button"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .edit-product form button[type="submit"]:hover,
+  .edit-product form button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+
+  .edit-product form button[type="reset"],
+  .edit-product form button[type="button"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .edit-product form button[type="reset"]:hover,
+  .edit-product form button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+
+  #description {
+    width: 101%;
+    height: auto; /* Automatically adjusts height based on content */
+    padding: 10px; /* Adjust padding as needed */
+    margin: 10px; /* Adjust margin as needed */
+    resize: none; /* Prevent manual resizing */
+  }
+  
+  

@@ -1,0 +1,143 @@
+.terrain-list-container {
+    text-align: center;
+  }
+  
+  .terrain-list-heading {
+    margin-bottom: 20px;
+  }
+  
+  .terrain-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .terrain-item {
+    width: 80%;
+    max-width: 600px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  .terrain-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+.terrain-owner {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold; 
+    margin-bottom: 10px;
+    margin-left: 10%;
+    height: 10%;
+  }
+  
+  .avatarimage {
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 50px;
+
+  }
+
+.terrain-image {
+    width: 150px; 
+    height: auto;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .terrain-image:hover {
+    transform: scale(1.1); 
+  }
+  
+  .terrain-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .terrain-phone {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .terrain-price {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .terrain-images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .terrain-image {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .add-to-cart-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #45a049;
+  }
+
+  .terrain-divider {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .terrain-item {
+    animation: fadeInUp 0.5s ease-in-out;
+  }
+  
+  .report-icon {
+    margin-right: -90%;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .report-icon:hover {
+    opacity: 0.7;
+    color: rgb(143, 13, 13);
+  }
+
+  .disabled {
+    color: grey;
+    pointer-events: none;
+}
+
+  
